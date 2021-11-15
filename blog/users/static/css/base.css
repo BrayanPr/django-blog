@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'FredokaOne-Regular';
+    src: local('FredokaOne-Regular'),
+         url('../static/fonts/FredokaOne-Regular.ttf') format("truetype");
+  }
+
+.header{
+    background-color: #807ABF;
+}
+
+.link{
+    color: #FFFFFF;
+    text-decoration:none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #CF0072;
+    font-weight: bold;
+}
+
+body{
+    background-color: #201E38;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h5{
+    color: #807ABF;
+    padding: 10px;
+    font-size: bold;
+}
+
+.footer p{
+    color: #FFFFFF;
+    font-size:10px;
+}
+
+.footer hr{
+    border:solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.title {
+    margin-top: 5%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.icon {
+    margin:5px;
+    width: 32px;
+    height: 32px;
+}
+
+.logo{
+    margin-top:-70px;
+    margin-bottom: -50px;
+    width: 200px;
+}
